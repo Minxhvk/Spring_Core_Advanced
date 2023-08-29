@@ -27,7 +27,7 @@ public class ThreadLocalServiceTest {
         threadB.setName("thread-B");
 
         threadA.start();
-        sleep(100);
+        sleep(1000);
         threadB.start();
 
 
